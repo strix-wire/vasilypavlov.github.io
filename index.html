@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Задания</title>
+    <link rel="stylesheet" href="styles.css">
+	<meta property="og:title"	content="QQQWWEQW">
+	<meta property="og:description"	content="DESCRIPTION HELLO">
+</head>
+<body>
+    <form method="get">
+        <input type="text" name="username" placeholder="Введите имя" />
+        <div>
+            <label for="checkbox">Что-то:</label>
+            <input type="checkbox" name="checkbox" id="checkbox" />
+        </div>
+        <div id="gender">
+            <p>
+                Выберите пол:
+            </p>
+            <label for="man">Мужской</label>
+            <input type="radio" name="gender" id="man" value="man" />
+            <label for="woman">Женский</label>
+            <input type="radio" name="gender" id="woman" value="woman" />
+        </div>
+        <div id="select">
+            <label for="select">Выберите что-то:</label>
+            <select name="select" id="select">
+                <option value="1">Выбор 1</option>
+                <option value="2">Выбор 2</option>
+                <option value="3">Выбор 3</option>
+            </select>
+        </div>
+        <textarea name="textarea" placeholder="Введите текст..."></textarea>
+        <button type="submit">Отправить</button>
+    </form>
+    <div>
+        <p id="p">
+            Для взаимодействия с пользователем в JavaScript определен механизм событий. Например, когда пользователь нажимает кнопку, то возникает событие нажатия кнопки.
+        </p>
+        <button id="btn-color">Покрасить</button>
+    </div>
+    <div id="slider">
+        <button id="btn-previous"><</button>
+        <div>
+            <img src="pictures1.jpg"/>
+            <img src="pictures2.jpg"/>
+            <img src="pictures3.jpg"/>
+            <img src="pictures4.jpg"/>
+            <img src="pictures5.jpg"/>
+        </div>
+        <button id="btn-next">></button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
